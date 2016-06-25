@@ -3,7 +3,7 @@
 
 // override for the 'Home' navigation link
 .top-bar .name {
-  font-size: rem-calc(13);
+  font-size: rem-calc(15);
   line-height: 45px; }
 .top-bar .name a {
   font-weight: normal;
@@ -44,5 +44,10 @@ main {
   }
 section {
   @extend .row;
-  margin-top: 20px;
+  margin-top: 0px;
+  padding-top: 240px;
+  padding-bottom: 240px;
   }
+.background_image {
+  background: image-url('gili-meno.jpg');
+}
