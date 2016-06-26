@@ -11,7 +11,7 @@ group :development, :test do
   gem 'byebug'
   gem 'spring'
 end
-gem 'foundation-rails', '~> 5.5'
+gem 'bootstrap-sass', '3.3.6'
 gem 'gibbon'
 gem 'high_voltage'
 gem 'simple_form'
