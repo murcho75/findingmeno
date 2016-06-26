@@ -1,4 +1,4 @@
-Learning Rails
+Finding Meno
 ==
 
-Learning Rails with a tutorial from the RailsApps project.
+Learning Rails by creating a small project app.
