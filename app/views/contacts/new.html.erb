@@ -1,11 +1,16 @@
 <% content_for :title do %>Contact<% end %>
 <h3>Contact</h3>
-<div class="form">
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
   <%= simple_form_for @contact do |form| %>
     <%= form.error_notification %>
-    <%= form.input :name, autofocus: true %>
-    <%= form.input :email %>
-    <%= form.input :content, as: :text %>
-    <%= form.button :submit, 'Submit', class: 'submit' %>
+  <div class="form-group">
+    <%= form.input :name, label: false, :placeholder => 'Your name...', autofocus: true, :class => "form-control" %>
+    <%= form.input :email, label: false, :placeholder => 'Your email address...', :class => "form-control" %>
+    <%= form.input :content, as: :text, label: false, :class => "form-control" %>
+  </div>
+    <%= form.button :submit, 'Submit', class: 'btn btn-primary' %>
   <% end %>
+</div>
 </div>
