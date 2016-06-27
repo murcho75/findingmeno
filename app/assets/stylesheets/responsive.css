@@ -1,0 +1,366 @@
+
+/* 
+   ------------------------------------------------------
+					Responsive Styles
+   ------------------------------------------------------
+*/
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	/*------------------------------------------*/
+	/*	  Intro Section
+	/*------------------------------------------*/
+	
+	#intro_form {padding-left: 15px;}
+	.intro_button {margin-top: 30px;}
+	
+	/*------------------------------------------*/
+	/*	 About Sections
+	/*------------------------------------------*/
+	
+	#about-1-img img {margin-top: 20px;}
+	
+	/*------------------------------------------*/
+	/*	  Video Content Settings
+	/*------------------------------------------*/ 
+
+	.video-block {padding-bottom: 68.25%;}
+	
+	/*------------------------------------------*/
+	/*	 Footer Newsletter Form
+	/*------------------------------------------*/
+	
+	.subscribe-form {width: 100%;}
+	
+	/*------------------------------------------*/
+	/*	  Blog Post
+	/*------------------------------------------*/ 
+	
+	.blog-post-titlebar h4 {margin-top: 15px;}
+	
+	/*------------------------------------------*/
+	/*	  Blog Video Post Settings
+	/*------------------------------------------*/ 
+
+	.blog-video-block {padding-bottom: 68.25%;}
+	
+	/*------------------------------------------*/
+	/*	  Call to Action
+	/*------------------------------------------*/ 
+	
+	#call-to-action h1 { padding: 0 5%; }
+	
+	/*------------------------------------------*/
+	/*	 Service List
+	/*------------------------------------------*/
+
+	#service-list { margin-top: 0px; }
+	.service-box-title { margin-bottom: 10px; }
+	
+	/*------------------------------------------*/
+	/*	 Progress Bar
+	/*------------------------------------------*/
+
+	.progress {margin-bottom: 20px; }
+	
+
+}
+
+
+@media only screen and (max-width: 991px){
+
+	.titlebar h1 { font-size: 32px; }
+	.titlebar p {font-size: 16px; }
+	
+	/*------------------------------------------*/
+	/*	 Header
+	/*------------------------------------------*/
+
+	#header { margin-bottom: 40px; }
+	
+	/*------------------------------------------*/
+	/*	  Intro Section
+	/*------------------------------------------*/
+	
+	#intro_description, #logo_image, #social_icons { padding: 0;}
+	#intro_form {padding: 0 0 0 25px;}
+	#intro_description h1 {font-size: 32px;}
+	.intro_feature p { font-size: 15px; }
+	.intro_button {margin-top: 40px;}
+	
+	/*------------------------------------------*/
+	/*	 About Sections
+	/*------------------------------------------*/
+	
+	#about-1 {padding-bottom: 60px;}
+	#about-2 {padding-top: 60px;}
+	
+	#about-1-text {padding-right: 15px;}
+	#about-2-text {padding-left: 15px;}
+	
+	/*------------------------------------------*/
+	/*	 About-1 Image
+	/*------------------------------------------*/
+
+	#about-1-img img {padding: 0 60px;}
+		
+	/*------------------------------------------*/
+	/*	 Video Holder
+	/*------------------------------------------*/
+	
+	#video_holder {margin-bottom: 40px;}
+	
+	/*------------------------------------------*/
+	/*	  Blog Post
+	/*------------------------------------------*/ 
+	
+	.blog-post-titlebar h4 {margin-top: 15px;}
+	
+	/*------------------------------------------*/
+	/*	  Pricing Table
+	/*------------------------------------------*/
+	
+	#pricing-table-holder {padding: 0; }
+	.pricing-table .plan-title {font-size: 18px; padding: 30px 6px;}
+	.pricing-table .plan-price h2 {font-size: 40px; }
+	.pricing-table ul.features { padding: 5px;}
+	
+	/*------------------------------------------*/
+	/*	 Call to Action
+	/*------------------------------------------*/
+	
+	#call-to-action h1 {font-size: 32px; padding: 0;}
+	#call-to-action p {font-size: 18px; padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Footer Social Icons  
+	/*------------------------------------------*/
+	
+	#footer_icons { margin:6px 0; }
+	.footer-socials { display: inline-block; float: right;}
+	
+	/*------------------------------------------*/
+	/*	 Footer Newsletter Form
+	/*------------------------------------------*/
+	
+	.subscribe-form {margin: 40px auto 5px; width: 55%; float: none !important;}
+	#newsletter-paragraph {float: none !important;}
+	
+	/*------------------------------------------*/
+	/*	 What We Do
+	/*------------------------------------------*/
+	#what-we-do {padding-bottom: 40px;}
+	#service-image .img-responsive { display: inline block; margin: 0 auto; margin-bottom: 30px;}
+	#progress-bar-holder { margin-bottom: 60px;}
+	
+	/*------------------------------------------*/
+	/*	  Team
+	/*------------------------------------------*/ 
+	
+	#team-member-holder { padding: 0; }
+	#team-1, #team-2, #team-3, #team-4 { padding-right: 40px; padding-left: 40px;}
+	
+	/*------------------------------------------*/
+	/*	  Statistic Banner
+	/*------------------------------------------*/ 
+	
+	#statistic-holder {padding-bottom: 20px;}
+	.statistic-block { margin-bottom: 60px;}
+	
+	/*------------------------------------------*/
+	/*	 Blog Page / Single Post Page
+	/*------------------------------------------*/
+	
+	#blog-large article, #single-post article { margin: 0 15px 50px 15px; }
+	#sidebar-right { margin: 0 30px; }
+	
+	/*------------------------------------------*/
+	/*	 Sidebar Right
+	/*------------------------------------------*/
+	
+	#sidebar-right { margin-top: 60px;}
+	
+
+}
+
+
+@media only screen and (max-width: 767px){
+	
+	#content-wrapper, #about-page-wrapper, #blog-page-wrapper, #single-post-wrapper {margin-top: 62px;}
+
+	/*------------------------------------------*/
+	/*	 Responsive Menu
+	/*------------------------------------------*/
+	
+	.navbar-nav { margin: 0 -15px; border-top: 1px solid #ddd; background-color: #f6f6f6;}	
+	.navbar-brand {padding: 15px 15px 10px 45px;}
+	.navbar-nav > li { text-align: center;}
+	.navbar-nav > li > a { line-height: 44px; text-align: center; display: inline-block; text-align: center;}
+	
+	.navbar-toggle {margin: 12px 45px 12px 0;}
+	
+	.container { overflow: hidden;}
+
+	#intro_form, #logo_image, #about-1, #about-2, #features, #faq, #pricing, #blog, #clients,
+	#what-we-do, #our-skills, #team, #single-post, #blog-large { padding-left: 45px; padding-right: 45px;}
+	.breadcrumb { padding: 20px 45px; }
+	#pricing-table-holder  { margin-right: 60px; margin-left: 60px;}
+	
+	
+	/*------------------------------------------*/
+	/*	 Header
+	/*------------------------------------------*/
+
+	#header { margin-bottom: 50px; }
+	#header img {padding: 0 15px 0 0;}
+
+	/*------------------------------------------*/
+	/*	  Intro Section
+	/*------------------------------------------*/
+	
+	#intro_description  { margin-bottom: 60px; padding: 0 45px;}
+	#intro_description h1 {font-size: 32px;}
+	.intro_button {margin-top: 20px;}
+	
+	.form_register {width: 60%; }
+	
+	/*------------------------------------------*/
+	/*	 Features
+	/*------------------------------------------*/
+	
+	.feature-box {margin-bottom: 30px;}
+	
+	/*------------------------------------------*/
+	/*	 Call to Action
+	/*------------------------------------------*/
+	
+	#call-to-action p {padding: 0 4%;}
+	
+	/*------------------------------------------*/
+	/*	 Footer
+	/*------------------------------------------*/
+	
+	#footer_nav { text-align: center; margin-bottom: 30px;}
+	.footer-nav {display: inline-block; margin: 0 auto;}
+	#footer_copy p {margin-left: 0;}
+	.footer-nav li {padding: 5px 10px 5px;}
+		
+	/*------------------------------------------*/
+	/*	 Footer Social Icons  
+	/*------------------------------------------*/
+	
+	.footer-socials {float: none;}
+	
+	/*------------------------------------------*/
+	/*	 Footer Newsletter Form
+	/*------------------------------------------*/
+	
+	.subscribe-form {margin: 25px auto 5px; width: 50%;}
+	
+	
+}
+
+
+@media (max-width: 480px) {
+	
+	.navbar-brand {padding: 15px 15px 10px 20px;}
+	.navbar-toggle {margin: 12px 20px 12px 0;}
+	
+	#intro_description, #intro_form, #logo_image, #about-1, #about-2, #features, #faq, #pricing, #blog, #clients,
+	#what-we-do, #our-skills, #team, #single-post, #blog-large, #sidebar-right { padding-left: 20px; padding-right: 20px;}
+	.breadcrumb { padding: 20px; }
+	#pricing-table-holder  { margin-right: 10px; margin-left: 10px;}
+	
+	.intro_feature p {font-size: 14px; }	
+	.form_register {width: 90%; }
+	
+	#about-1-img img {padding: 0;}
+	#about-2-img img {margin-top: 0;padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Footer Newsletter Form
+	/*------------------------------------------*/
+	
+	.subscribe-form {margin: 25px auto 5px; width: 70%;}
+	
+	#full-about-info h3, #all-posts h3 {line-height: 36px;}
+	
+	/*------------------------------------------*/
+	/*	 Team
+	/*------------------------------------------*/ 
+	
+	#team { padding-bottom: 10px; }
+	#team-member-holder { padding: 0 10%;}
+	#team-member-holder .col-xs-6 { width: 100%; float: none !important; }	
+	
+	/*------------------------------------------*/
+	/*	  Single Post Navigation
+	/*------------------------------------------*/ 
+	
+	.post-nav div { display: block; text-align: center;}
+	.post-prev { margin-bottom: 30px;}
+	.post-prev, .post-next  { float: none !important; }	
+	.post-nav div.post-next {text-align: center;}
+
+}
+
+
+@media (max-width: 320px) {
+
+	.titlebar h1 { font-size: 28px; }
+	
+	#intro_form, #logo_image, #about-1, #about-2, #features, #faq, #pricing, #blog, #clients,
+	#what-we-do, #our-skills, #team, #single-post, #blog-large, #sidebar-right { padding-left: 5px; padding-right: 5px;}
+	.breadcrumb { padding: 20px 5px; }
+	#pricing-table-holder  { margin-right: 0; margin-left: 0;}
+	
+	/*------------------------------------------*/
+	/*	  Header
+	/*------------------------------------------*/
+	
+	#logo_image {width: 100%; text-align: center; margin-bottom: 15px; float: none !important;}
+	#logo_image img { padding: 0;}
+	#social_icons {width: 100%; text-align: center; float: none !important;}
+	
+	.customNavigation {display: none;}
+	
+	/*------------------------------------------*/
+	/*	  Intro Section
+	/*------------------------------------------*/
+	
+	#intro_description { padding-left: 15px; padding-right: 15px;text-align: center;}
+	#intro_description h1 {text-align: center;}
+	
+	/*------------------------------------------*/
+	/*	 Footer Navigation Menu
+	/*------------------------------------------*/  
+
+	.footer-nav li {padding: 5px 5px 10px;}
+
+	.footer-nav li a {font-size: 13px;}
+	
+	
+	/*------------------------------------------*/
+	/*	 Footer Newsletter Form
+	/*------------------------------------------*/
+	
+	.subscribe-form {margin: 25px auto 5px; width: 100%;}
+	
+	/*------------------------------------------*/
+	/*	  Accordion
+	/*------------------------------------------*/
+
+	.accordion a { line-height: 20px; }
+	
+	/*------------------------------------------*/
+	/*	 Team
+	/*------------------------------------------*/
+
+	#team_link, #all-posts { padding: 0 10%;}
+	#team_link h3, #all-posts h3, #full-about-info h3 {font-size: 18px;}
+	#team_link a, #all-posts a { font-size: 16px; padding: 0; display: block;}
+
+
+
+}

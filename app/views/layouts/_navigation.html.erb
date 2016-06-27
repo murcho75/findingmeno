@@ -1,10 +1,27 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container">
-    <%= link_to 'Finding Meno', root_path, id: "logo" %>
-    <nav>
-      <ul class="nav navbar-nav navbar-right">
-        <%= render 'layouts/navigation_links' %>
-      </ul>
-    </nav>
-  </div>
-</header>
+<header id="header">
+
+  <div class="navbar navbar-fixed-top">
+    <div class="container">
+
+      <!-- Logo & Responsive Menu -->
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#top-page-banner"><%= image_tag "logo.png" %></a>
+      </div>	<!-- End navbar-header -->
+
+      <!-- Navigation -->
+      <nav id="navigation-menu" class="collapse navbar-collapse"  role="navigation">
+        <ul class="nav navbar-nav navbar-right">
+          <%= render 'layouts/navigation_links' %>
+        </ul>
+      </nav>	<!-- End navbar-collapse -->
+
+    </div>	<!-- End container -->
+  </div>	<!-- End navbar -->
+
+</header>	 <!-- END HEADER -->

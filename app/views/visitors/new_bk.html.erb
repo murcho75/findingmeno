@@ -1,0 +1,14 @@
+<% content_for :title do %>Finding Meno | Tell us about your trip to Indonesia<% end %>
+<% content_for :description do %>Tell us what you enjoyed about your trips to Bali and Indonesia.<% end %>
+
+  <div class="center jumbotron">
+    <h3>Finding Meno...</h3>
+    <p>Tell us what you enjoyed about your trips to Bali and Indonesia.</p>
+      <%= simple_form_for @visitor do |f| %>
+        <%= f.error_notification %>
+        <div class="form-group">
+          <%= f.input :email, label: false, :placeholder => 'Your email address...', :class => "form-control" %>
+        </div>
+        <%= f.button :submit, "Sign up for the newsletter", :class => "btn btn-primary" %>
+      <% end %>
+    </div>
