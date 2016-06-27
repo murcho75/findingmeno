@@ -355,11 +355,11 @@ a:focus {
 /*	  Register Form
 /*------------------------------------------*/
 
-#intro_form {
+#simple_form {
 	padding-left: 100px;
 }
 
-.form_register {
+.simple_form {
 	width: 100%;
 	background: rgba(120, 120, 120, 0.45);
 	margin: 0 auto;
@@ -369,7 +369,7 @@ a:focus {
     border-radius: 5px;
 }
 
-.form_register h2 {
+.simple_form h2 {
 	color: #fff;
     text-align: center;
     line-height: 30px;
@@ -382,8 +382,10 @@ a:focus {
 /*	  Register Form Input
 /*------------------------------------------*/
 
-.form_register .form-control {
+.simple_form .form-control ,
+input.required {
 	height: 46px;
+	width: 100%;
 	margin-bottom: 20px;
 	border: 1px solid #ddd;
 	-webkit-border-radius: 0;
@@ -402,8 +404,10 @@ textarea {
 	transition: all 300ms ease-in-out;
 }
 
-.form_register textarea {
+
+.simple_form textarea {
 	min-height: 140px;
+	width: 100%;
 }
 
 /*------------------------------------------*/
@@ -415,7 +419,6 @@ textarea {
 	font-size: 13px;
 	margin-bottom: 20px;
 }
-
 
 
 /* ==========================================================================

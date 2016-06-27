@@ -8,7 +8,8 @@ class VisitorsController < ApplicationController
     @visitor = Visitor.new(secure_params)
     if @visitor.valid?
       @visitor.subscribe
-      flash[:success] = "Signed up #{@visitor.email}"
+      UserMailer.visitor_email(@visitor).deliver_now
+      flash[:success] = "Thank you. Your travelling story has been sent"
       redirect_to root_path
     else
       render :new
@@ -18,7 +19,7 @@ class VisitorsController < ApplicationController
   private
 
   def secure_params
-    params.require(:visitor).permit(:email)
+    params.require(:visitor).permit(:name, :email, :content)
   end
 
 end
