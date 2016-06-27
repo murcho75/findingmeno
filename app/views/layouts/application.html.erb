@@ -1,27 +1,4 @@
 <!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <title><%= content_for?(:title) ? yield(:title) : "Finding Meno" %></title>
-    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Finding Meno" %>">
-    <%= stylesheet_link_tag 'application', media: 'all',
-                                           'data-turbolinks-track' => true %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-    <%= csrf_meta_tags %>
-  </head>
-  <body>
-
-    <%= render 'layouts/navigation' %>
-
-  <div class="container">
-    <%= render 'layouts/messages' %>
-    <%= yield %>
-  </div>
-
-
-  </body>
-</html>
-
-<!DOCTYPE html>
 <!-- Crossway - Startup Landing Page Template design by DSA79 (http://www.dsathemes.com) -->
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -47,11 +24,8 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
 
-		<!-- Favicons -->
-		<link rel="shortcut icon" href="img/icons/favicon.ico">
-		<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+		<!-- Favicon -->
+		<%= favicon_link_tag 'favicon.ico' %>
 
 		<!-- Google Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,900italic,900,700italic,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
@@ -64,9 +38,7 @@
 		<!-- PRELOADER
 		============================================= -->
 
-		<div id="preloader">
-			<div id="status"></div>
-		</div>
+
 
     <!-- HEADER
     ============================================= -->
@@ -79,8 +51,10 @@
 
 		<div id="content-wrapper">
 
-
-
+      <!-- MAIN PAGE CONTENT
+  		============================================= -->
+    <%= render 'layouts/messages' %>
+    <%= yield %>
 
 
 			<!-- FOOTER
